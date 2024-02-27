@@ -110,11 +110,13 @@ int main (void){
     //errofile (datei);
 
     X = 10.0;
-        Y = 0;
-        Z = 0;
+    Y = 0;
+    Z = 0;
 
-        while (i<=N){
-            runge_kutta( &X, &Y, &Z);
-        }
+    while (i<=N){
+        runge_kutta( &X, &Y, &Z);
+        i++;
+    }
+    printf("%.10lf" , X);
     return 0;
 }
