@@ -1,3 +1,4 @@
+name: C-Check
 on:
   push:
     branches: [main]
