@@ -95,7 +95,6 @@ void errofile (FILE *datei) {
 
 /*Write output in a file*/
 void fileoutput (double *X, double* Y, double* Z, FILE *data){
-
     fprintf(data,"%.10lf;", (*X));
     fprintf(data,"%.10lf;", (*Y));
     fprintf(data,"%.10lf\n", (*Z));
