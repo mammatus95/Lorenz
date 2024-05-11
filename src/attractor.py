@@ -10,7 +10,7 @@ import math
 
 # logistic map
 def logisticmap(x, r=2.8):
-    return r*x(1-x)
+    return r*x*(1-x)
 
 # henon_2D
 def henon_2D(vec, alpha=1.4, beta=0.3):
